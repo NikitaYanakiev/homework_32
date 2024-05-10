@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/homework_32/static/css/main.67f91aff.css",
+    "main.js": "/homework_32/static/js/main.82fb5b29.js",
+    "static/media/dual-shock_03.png": "/homework_32/static/media/dual-shock_03.5ae5419d2af8096e1f3a.png",
+    "static/media/dual-shock_02.png": "/homework_32/static/media/dual-shock_02.d1cebbc1d6e8375f4765.png",
+    "static/media/dual-shock_01.png": "/homework_32/static/media/dual-shock_01.97b188ca7dcdb9aee810.png",
+    "static/media/logo.svg": "/homework_32/static/media/logo.d1795ccbaf35d87c655c943b5db5630d.svg",
+    "static/media/instagram.svg": "/homework_32/static/media/instagram.eb573653c00c7b8bcfdbe2e6b408f7e2.svg",
+    "static/media/twitter.svg": "/homework_32/static/media/twitter.2d72d9acb9881bff41cb86ac5d440557.svg",
+    "static/media/facebook.svg": "/homework_32/static/media/facebook.95728f8f306ef79ecfe88d2ae4aac6ab.svg",
+    "index.html": "/homework_32/index.html",
+    "main.67f91aff.css.map": "/homework_32/static/css/main.67f91aff.css.map",
+    "main.82fb5b29.js.map": "/homework_32/static/js/main.82fb5b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67f91aff.css",
+    "static/js/main.82fb5b29.js"
+  ]
+}
