@@ -1,0 +1,24 @@
+.button {
+    display: block;
+    cursor: pointer;
+    border-radius: 2vw;
+    border: .2vw solid #000;
+    background-color: transparent;
+    margin: 2% auto;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    font-weight: bold;
+    text-shadow: .1vw .2vw .2vw #969696, .5vw .5vw 5vw #aba8a8;
+    transition: all .3s ;
+}
+
+.button:hover {
+    color:#DCDFE8;
+    background-color: #000;
+    text-shadow: none;
+
+}
+
+.button:active {
+    transform: scale(0.9);
+}

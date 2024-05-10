@@ -1,0 +1,43 @@
+.line-blue_left {
+    position: absolute;
+    top: -5%;
+    left: 25%;
+    transform: rotate(-15deg);
+    display: block;
+    height: 40%;
+    width: .4%;
+    background: linear-gradient(-15deg, rgba(255, 255, 255, 0) 0%, #5070ED 100%);
+}
+
+.line-blue_right {
+    position: absolute;
+    top: -5%;
+    right: 25%;
+    transform: rotate(15deg);
+    display: block;
+    height: 40%;
+    width: .4%;
+    background: linear-gradient(15deg, rgba(255, 255, 255, 0) 0%, #5070ED 100%);
+}
+
+.line-black_left {
+    position: absolute;
+    bottom: -5%;
+    left: 25%;
+    transform: rotate(10deg);
+    display: block;
+    height: 60%;
+    width: .6%;
+    background: linear-gradient(10deg, #000  0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.line-black_right {
+    position: absolute;
+    bottom: -5%;
+    right: 25%;
+    transform: rotate(-10deg);
+    display: block;
+    height: 60%;
+    width: .6%;
+    background: linear-gradient(10deg, #000  0%, rgba(255, 255, 255, 0) 100%);
+}

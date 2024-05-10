@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    max-width: 10%;
+}
+
+.header__logo img {
+    width: 100%;
+    display: block;
+}
+
+.header__nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -20%;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    transition: all .5s;
+    z-index: 10;
+}
+
+.header__nav.active {
+    width: 30%;
+    right: 0;
+}
+
+.header__nav.active .header__link-item {
+    font-size: 4vh;
+}
+
+.header__list {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.header__link {
+    margin-bottom: 3vh;
+}
+
+.header__link-item {
+    font-size: 4vh;
+    font-weight: lighter;
+    letter-spacing: 1vh;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: all .5s;
+}
+
+.header__link-item:hover {
+    color: #5f5f5f;
+}
+
+.header__burger {
+    position: relative;
+    width: 2vw;
+    height: 3vh;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+    z-index: 100;
+}
+
+.header__burger input {
+    display: none;
+}
+
+.header__burger span {
+    display: block;
+    position: absolute;
+    height: 0.39vh;
+    width: 100%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.header__burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+}
+
+.header__burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+}
+
+.header__burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+}
+
+.header__burger input:checked~span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 0.5vw;
+}
+
+.header__burger input:checked~span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+.header__burger input:checked~span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 1.45vw;
+    left: 0.5vw;
+}
+
